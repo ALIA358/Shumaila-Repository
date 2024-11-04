@@ -4,16 +4,16 @@ int main()
 {
 	
 int a;
- long s;                                         
+ long s=1;                                         
 cout<<"enter a no to find fictorial"<<endl;
 cin>>a;
 int i=1;
 
 do{
-	s=i*a ;
+	s*=i ;
 	i++;
 }
-	while(i<a);
+	while(i<=a);
 	
 	cout<<"Factorial of "<<a<<" is "<<s;	
 return 0;
