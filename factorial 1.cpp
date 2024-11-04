@@ -8,7 +8,7 @@ long s=1;
 cout<<"enter a no to find fictorial"<<endl;
 cin>>a;
 
-for(int i=1; i<a; i++)
+for(int i=1; i<=a; i++)
 {
 		s*=i ;
 }
